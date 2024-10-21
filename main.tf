@@ -28,7 +28,7 @@ resource "aws_instance" "managed_nodes" {
   }
 }
 resource "aws_security_group" "tf-sec-gr" {
-  name = "project-jenkins-sec-gr"
+  name = "project-jenkins-sec-gr-1"
   tags = {
     Name = "project-jenkins-sec-gr"
   }
